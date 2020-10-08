@@ -1007,28 +1007,29 @@
 			},
 			"env": [
                 {
-					"name": "CUSTOM_HTTP_ADMIN_ROOT_PATH",
-					"label": "/"
+					"name": "CUSTOM_HTTP_ROOT_PATH",
+					"label": "Root path",
+					"description": "Default is /"
 				},
 				{
 					"name": "CUSTOM_HTTP_ADMIN_ROOT_PATH",
-					"label": "/admin"
+					"label": "Admin UI path", 
+					"description": "default is /admin"
 				},
 				{
                     "name": "CUSTOM_HTTP_UI_RELATIVE_PATH",
-                    "label": ""
+                    "label": "Relative path",
+                    "description": "default is empty"
 				},
 				{
                     "name": "CUSTOM_NODERED_EDITOR_AND_ADMIN_API_USER",
-                    "label": "admin"
+                    "label": "The admin username",
+                    "description": "Default is <b>admin</b>"
 				},
 				{
                     "name": "CUSTOM_NODERED_EDITOR_AND_ADMIN_API_PASSWORD",
-                    "label": "password"
-				},
-				{
-                    "name": "CUSTOM_NODERED_EDITOR_AND_ADMIN_API_PERMISSIONS",
-                    "label": "*"
+                    "label": "The admin password",
+                    "description": "Default is <b>password</b>"
 				}
 			]
 		}
