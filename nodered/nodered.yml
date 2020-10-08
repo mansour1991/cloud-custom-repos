@@ -1,0 +1,16 @@
+version: "3.7"
+
+
+services: 
+  nodered:
+    image: mahmoud91/node-red-workshop3:v1.0.0
+    ports:
+      - 1880
+    environment: 
+       - "CUSTOM_HTTP_ROOT_PATH=/" #default is /
+       - "CUSTOM_HTTP_ADMIN_ROOT_PATH=/admin" #default is /admin
+       - "CUSTOM_HTTP_UI_RELATIVE_PATH=" #default is no relative path
+       - "CUSTOM_NODERED_EDITOR_AND_ADMIN_API_USER=admin" #default is "admin"
+       - "CUSTOM_NODERED_EDITOR_AND_ADMIN_API_PASSWORD=password" #default is "password"
+       - "CUSTOM_NODERED_EDITOR_AND_ADMIN_API_PERMISSIONS=*" #default is *
+       
