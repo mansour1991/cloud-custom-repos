@@ -1002,7 +1002,7 @@
 			"logo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=normal&v=3",
 			"platform": "linux",
 			"repository": {
-				"url": "https://github.com/mansour1991/cloud-custom-repos",
+				"url": "https://github.com/mansour1991/cloud-custom-repos/nodered",
 				"stackfile": "nodered.yml"
 			},
 			"env": [
